@@ -7,6 +7,7 @@ import { BiPhone } from 'react-icons/bi';
 import { ImMail } from 'react-icons/im';
 
 
+// manik
 const Contactform = () => {
 
     const [name, setname] = useState("User");
