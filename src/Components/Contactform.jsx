@@ -38,21 +38,18 @@ const Contactform = () => {
                     <div className="form flex flex-col gap-4">
 
                         <div className="form_container flex flex-col relative ... ">
-                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5  my-2 font-bold"
-                                htmlFor="name">NAME</label>
-                            <input className="h-10 px-2 border border-solid border-black" type="text" name="name" />
+                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5  font-bold" htmlFor="name">NAME</label>
+                            <input className="h-10 px-2 py-4 border border-solid border-black" type="text" name="name" />
                         </div>
 
                         <div className="form_container flex flex-col relative ... ">
-                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5 my-2 font-bold "
-                                htmlFor="email">E-MAIL</label>
-                            <input className="h-10 px-2 border border-solid border-black" type="email" name="email" />
+                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5 font-bold " htmlFor="email">E-MAIL</label>
+                            <input className="h-10 px-2 py-4 border border-solid border-black" type="email" name="email" />
                         </div>
 
                         <div className="form_container flex flex-col relative ... ">
-                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5 my-2 font-bold"
-                                htmlFor="text">TEXT</label>
-                            <textarea className="h-10 px-2 py-2 border border-solid border-black" name="text"  />
+                            <label className="absolute ... -top-3 left-2.5  bg-white px-2.5 font-bold" htmlFor="text">TEXT</label>
+                            <textarea className="h-10 px-2 py-4 border border-solid border-black" name="text"  />
                         </div>
 
                         <div className="submitbtn  flex justify-end">

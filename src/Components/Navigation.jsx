@@ -5,7 +5,7 @@ const Navigation = () => {
         <nav className="flex justify-between  h-18  mt-1 ">
             <div className="logo">
             {/* logo ml-0 */}
-                <img src="images/logo.png" alt="logo"className=""></img>
+                <img className="w-auto h-auto" src="images/logo.png" alt="logo"></img>
             </div>
             <div className=" navigation-list  mr-16 ">
                 <ul className=" flex gap-x-6  ">
